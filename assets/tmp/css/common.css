@@ -1,0 +1,243 @@
+/* --------------------------------------------------------------------------------------
+ RESET
+--------------------------------------------------------------------------------------- */
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	border: 0;
+}
+
+/* HTML5 display-role reset for older browsers
+*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+	content: '';
+	content: none;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------------------
+ COMMON
+--------------------------------------------------------------------------------------- */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	overflow-x: hidden;
+	width: 100%;
+	letter-spacing: .08em;
+	color: #fff;
+	background: -webkit-radial-gradient(#000, transparent);
+	background: radial-gradient(#000, transparent);
+	background-color: #130f40;
+	-webkit-text-size-adjust: none;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+}
+
+body.no-scroll {
+	overflow-y: hidden;
+}
+
+html {
+	width: 100%;
+	-ms-scroll-chaining: none;
+	overscroll-behavior: none;
+}
+
+input,
+select,
+textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	letter-spacing: .08em;
+}
+
+a {
+	cursor: pointer;
+	color: #000;
+	outline: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+strong {
+	font-weight: 600;
+}
+
+/* --------------------------------------------------------------------------------------
+ Common
+--------------------------------------------------------------------------------------- */
+
+.preloadArea {
+	display: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.col {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+/*header*/
+
+/*footer*/
+
+footer .footer p {
+	font-size: 14px;
+	padding: 5px 0;
+	text-align: center;
+	color: #fff;
+	background-color: #130f40;
+}
+
